@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1100.0" style="-fx-background-color: #000000;" stylesheets="@css/main.css" fx:controller="com.example.demo.DepositController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="80.0" />
+   </padding>
+   <children>
+      <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1100.0" style="-fx-border-color: #ffffff; -fx-border-width: 0 0 1 0;">
+         <padding>
+            <Insets left="80.0" right="80.0" />
+         </padding>
+         <children>
+            <Label prefHeight="74.0" prefWidth="278.0" styleClass="header-text" text="Deposit" />
+            <Region prefHeight="180.0" prefWidth="720.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="230.0" prefWidth="1100.0" spacing="35.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 100.00$" styleClass="deposit-btn" onAction="#handleDeposit100"/>
+            <Button layoutX="415.0" layoutY="77.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 250.00$" styleClass="deposit-btn" onAction="#handleDeposit250"/>
+            <Button layoutX="578.0" layoutY="77.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 500.00$" styleClass="deposit-btn" onAction="#handleDeposit500"/>
+         </children>
+         <padding>
+            <Insets left="80.0" right="80.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1100.0" style="-fx-border-color: #ffffff; -fx-border-width: 0 0 1 0;">
+         <padding>
+            <Insets left="80.0" right="80.0" />
+         </padding>
+         <children>
+            <Label prefHeight="74.0" prefWidth="452.0" styleClass="header-text" text="Withdraw" />
+            <Region prefHeight="180.0" prefWidth="720.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="420.0" prefHeight="230.0" prefWidth="1100.0" spacing="35.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 100.00$" styleClass="withdraw-btn" onAction="#handleWithdraw100" disable="true" fx:id="withdrawButton100"/>
+            <Button layoutX="415.0" layoutY="77.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 250.00$" styleClass="withdraw-btn" onAction="#handleWithdraw250" disable="true" fx:id="withdrawButton250"/>
+            <Button layoutX="578.0" layoutY="77.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="290.0" text="+ 500.00$" styleClass="withdraw-btn" onAction="#handleWithdraw500" disable="true" fx:id="withdrawButton500"/>
+         </children>
+         <padding>
+            <Insets left="80.0" right="80.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

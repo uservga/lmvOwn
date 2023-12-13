@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="937.0" prefWidth="1920.0" stylesheets="@css/main.css" fx:controller="com.example.demo.RegistrationController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox prefHeight="630.0" prefWidth="383.0" style="-fx-background-color: #171717;" HBox.hgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER" prefHeight="130.0" prefWidth="383.0" style="-fx-border-color: #ffffff; -fx-border-width: 0 0 1 0;">
+               <children>
+                  <ImageView fitHeight="54.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/game.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="259.0" prefWidth="383.0" spacing="32.0" style="-fx-border-color: #ffffff; -fx-border-width: 0 0 1 0;">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img">
+                     <image>
+                        <Image url="@img/game1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="296.0" layoutX="54.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img">
+                     <image>
+                        <Image url="@img/game2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="296.0" layoutX="54.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img">
+                     <image>
+                        <Image url="@img/game3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="32.0" top="32.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="140.0" prefHeight="238.0" prefWidth="383.0" spacing="32.0">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img">
+                     <image>
+                        <Image url="@img/help.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="42.0" fitWidth="296.0" layoutX="54.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img">
+                     <image>
+                        <Image url="@img/blog.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children></VBox>
+        <VBox prefHeight="630.0" prefWidth="1537.0" style="-fx-background-color: #202022;" HBox.hgrow="ALWAYS">
+            <children>
+                <HBox alignment="CENTER" prefHeight="130.0" prefWidth="1537.0" style="-fx-background-color: #202022; -fx-padding: 0 0 0 587; -fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+                    <children>
+                        <ImageView fitHeight="130.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="click-img" fx:id="mainButton">
+                            <image>
+                                <Image url="@img/logo.png" />
+                            </image>
+                        </ImageView>
+                        <Region prefWidth="726.0" />
+                    </children>
+               <padding>
+                  <Insets bottom="24.0" top="24.0" />
+               </padding>
+                </HBox>
+            <VBox prefHeight="815.0" prefWidth="1537.0">
+               <children>
+                  <VBox prefHeight="715.0" prefWidth="546.0" style="-fx-background-color: #171717; -fx-background-radius: 32px;">
+                     <opaqueInsets>
+                        <Insets top="32.0" />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="62.0" prefWidth="466.0" spacing="30.0">
+                           <children>
+                              <Label prefHeight="63.0" prefWidth="149.0" styleClass="label-text" text="Login" fx:id="loginLabel"/>
+                              <Label prefHeight="63.0" prefWidth="225.0" styleClass="label-text_active" text="Register" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="32.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets left="30.0" right="30.0" />
+                           </padding>
+                        </HBox>
+                        <VBox prefHeight="84.0" prefWidth="466.0">
+                           <children>
+                              <Label styleClass="login-text" text="Login">
+                                 <padding>
+                                    <Insets left="30.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="4.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="12.0" />
+                                 </VBox.margin>
+                              </Label>
+                               <TextField prefHeight="54.0" style="-fx-background-color: #202022; -fx-background-radius: 24px; -fx-text-fill: white;" fx:id="loginField"/>
+                           </children></VBox>
+                        <VBox layoutX="50.0" layoutY="182.0" prefHeight="84.0" prefWidth="466.0">
+                           <children>
+                              <Label styleClass="login-text" text="Password">
+                                 <padding>
+                                    <Insets left="30.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="4.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="12.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField prefHeight="54.0" style="-fx-background-color: #202022; -fx-background-radius: 24px; -fx-text-fill: white;" fx:id="passwordField"/>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="32.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox layoutX="50.0" layoutY="261.0" prefHeight="84.0" prefWidth="466.0">
+                           <children>
+                              <Label styleClass="login-text" text="Repeat password">
+                                 <padding>
+                                    <Insets left="30.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="4.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="12.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField prefHeight="56.0" prefWidth="466.0" style="-fx-background-color: #202022; -fx-background-radius: 24px; -fx-text-fill: white;" fx:id="repeatPasswordField"/>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="32.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox prefHeight="32.0" prefWidth="466.0">
+                           <children>
+                              <CheckBox mnemonicParsing="false" prefHeight="32.0" style="-fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 20px; -fx-cursor: hand;" text="I agree to register account" fx:id="agreeCheckBox"/>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="55.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox prefHeight="54.0" prefWidth="466.0">
+                           <VBox.margin>
+                              <Insets top="55.0" />
+                           </VBox.margin>
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="466.0" styleClass="enter-btn" text="Register" onAction="#handleRegister" disable="true" fx:id="registerButton"/>
+                           </children>
+                        </VBox>
+                     </children></VBox>
+               </children>
+               <padding>
+                  <Insets bottom="80.0" left="445.0" right="546.0" top="80.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            </children>
+        </VBox>
+    </children>
+</HBox>

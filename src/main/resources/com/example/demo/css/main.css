@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.login-btn{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.register-btn{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-background-color: #F1C24C;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.header-text{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 60px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.click-img{
+    -fx-cursor: hand;
+}
+
+.label-text{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.label-text_active{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 50px;
+    -fx-text-fill: #F1C24C;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.login-text{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.enter-btn{
+    -fx-background-color: #F1C24C;
+    -fx-border-width: 0;
+    -fx-background-radius: 24px;
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.info-text{
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.deposit-btn{
+    -fx-background-color: #F1C24C;
+    -fx-border-width: 0;
+    -fx-background-radius: 32px;
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 40px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.withdraw-btn{
+    -fx-background-color: #4FF14C;
+    -fx-border-width: 0;
+    -fx-background-radius: 32px;
+    -fx-font-family: 'Montserrat', sans-serif;
+    -fx-font-size: 40px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
